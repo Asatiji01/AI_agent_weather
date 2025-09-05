@@ -3,7 +3,7 @@ const axios = require("axios");
 const { GoogleGenAI } = require("@google/genai");
 
 // Initialize Gemini API
-const ai = new GoogleGenAI({ apiKey: "AIzaSyD5uC7FQvahJywDQ54jfXi2Gdk89NGn2aA" });
+const ai = new GoogleGenAI({ apiKey: PASTE API KEY HERE });
 
 async function main(msg) {
   const response = await ai.models.generateContent({
@@ -138,4 +138,5 @@ Instructions:
 }
 
 // Run
+
 chating();
